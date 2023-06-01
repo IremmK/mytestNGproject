@@ -6,6 +6,9 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class RentalHomePage {
+    public static WebElement OK ;
+    public WebElement logOut;
+
     public RentalHomePage(){
         PageFactory.initElements(Driver.getDriver(),this);
     }
